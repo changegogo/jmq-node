@@ -4,7 +4,7 @@
   "description": "JD JMP node client",
   "main": "index.js",
   "scripts": {
-    "test": "mock test"
+    "test": "mocha test"
   },
   "keywords": [
     "jmq"
@@ -12,6 +12,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "assert": "^1.4.1",
     "mocha": "^5.2.0"
   },
   "dependencies": {
