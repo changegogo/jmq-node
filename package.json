@@ -1,0 +1,23 @@
+{
+  "name": "jmp-node",
+  "version": "1.0.0",
+  "description": "JD JMP node client",
+  "main": "index.js",
+  "scripts": {
+    "test": "mock test"
+  },
+  "keywords": [
+    "jmq"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "node-uuid": "^1.4.8",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
