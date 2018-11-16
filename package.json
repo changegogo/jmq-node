@@ -6,10 +6,15 @@
   "scripts": {
     "test": "mocha test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dailliwang/jmq-node.git"
+  },
   "keywords": [
+    "mq",
     "jmq"
   ],
-  "author": "",
+  "author": "dailiwang",
   "license": "MIT",
   "devDependencies": {
     "assert": "^1.4.1",
