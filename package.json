@@ -1,5 +1,5 @@
 {
-  "name": "jmp-node",
+  "name": "jmq-node",
   "version": "1.0.0",
   "description": "JD JMP node client",
   "main": "index.js",
