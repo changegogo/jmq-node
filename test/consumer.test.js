@@ -14,12 +14,12 @@ describe('测试consumer拉取消息', function() {
     };
     it('consumer成功拉取消息', async () => {
         let consumer = new JmqClient(params).getConsumer();
-        let info = await consumer.consume();
+        let info = await consumer.pull();
         assert(info.code === 0);
     })
     it('consumer成功拉取消息,并且成功消费', async () => {
         let consumer = new JmqClient(params).getConsumer();
-        let info = await consumer.consume();
+        let info = await consumer.pull();
         let ackRes = await consumer.ack(info.result);
         assert(info.code === 0 && ackRes.code === 0);
     })
